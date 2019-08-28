@@ -32,11 +32,14 @@ def play(songs)
   if input_as_integer != 0
     puts (input_as_integer.to_i <= songs.size ? songs[input.to_i - 1] : error_message)
   else
-   song = songs.reduce("") do |memo, song|
+   song = 
+    puts (song != "" ? song : error_message)
+  end
+end
+
+def find_song(songs)
+  songs.reduce("") do |memo, song|
       memo = input if song.include?(input)
       memo
     end
-    puts (song != "" ? song : error_message)
-  end
-
 end
