@@ -32,6 +32,7 @@ def play(songs)
   else
     puts songs.reduce("") do |memo, song|
       memo = input if song.include?(input)
+      memo
     end
     
   end
