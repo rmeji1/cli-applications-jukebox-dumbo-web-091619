@@ -21,8 +21,8 @@ def help
   puts "- exit : exits this program"
 end
 
-def play(song_number)
-  p 'songs', song_number
+def play(song)
+  p 'song_number
   songs[ song_number.to_i ]
 
 end
