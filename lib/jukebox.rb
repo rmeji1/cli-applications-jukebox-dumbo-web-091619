@@ -27,7 +27,7 @@ def play(songs)
   
   input_as_integer = input.to_i 
   if input_as_integer != 0
-    puts (input.to_i =< songs.size ? songs[input.to_i - 1] : "Error")
+    puts (input.to_i <= songs.size ? songs[input.to_i - 1] : "Error")
   else
     puts input
   end
