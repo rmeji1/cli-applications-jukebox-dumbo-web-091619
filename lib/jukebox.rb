@@ -39,7 +39,7 @@ end
 
 def find_song(songs, title)
   songs.reduce("") do |memo, song|
-    memo = input if song.include?(input)
+    memo = title if song.include?(title)
     memo
   end
 end
