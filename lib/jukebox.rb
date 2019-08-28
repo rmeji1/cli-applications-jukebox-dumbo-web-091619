@@ -44,3 +44,5 @@ def find_song_with_title(songs, title)
   end
 end
 
+def list
+end
