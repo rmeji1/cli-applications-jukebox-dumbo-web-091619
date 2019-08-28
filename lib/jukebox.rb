@@ -34,7 +34,7 @@ def play(songs)
       memo = input if song.include?(input)
       memo
     end
-    puts song 
+    puts song if song != ""
   end
 
 end
