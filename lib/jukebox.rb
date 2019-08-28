@@ -25,8 +25,9 @@ def play(songs)
   puts "Please enter a song name or number:"
   input = gets.chomp
   
-  if input.to_i != 0
-    puts songs[input.to_i - 1] if input.to_i < songs.size
+  input_as_integer = input.to_i 
+  if input_as_integer != 0
+    puts (input.to_i =< songs.size ? songs[input.to_i - 1] : "Error")
   else
     puts input
   end
