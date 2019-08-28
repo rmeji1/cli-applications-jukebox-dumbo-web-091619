@@ -30,7 +30,7 @@ def play(songs)
   if input_as_integer != 0
     puts (input_as_integer.to_i <= songs.size ? songs[input.to_i - 1] : error_message)
   else
-    puts songs.reduce("") do |memo, song|
+   songs.reduce("") do |memo, song|
       memo = input if song.include?(input)
       memo
     end
