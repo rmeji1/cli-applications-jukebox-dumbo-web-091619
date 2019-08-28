@@ -30,7 +30,7 @@ def play(songs)
   if input_as_integer != 0
     puts (input_as_integer.to_i <= songs.size ? songs[input.to_i - 1] : error_message)
   else
-      
+    if songs.include?(input)  
     
   end
 
