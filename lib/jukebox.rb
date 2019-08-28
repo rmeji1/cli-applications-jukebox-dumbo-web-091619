@@ -22,7 +22,7 @@ def help
 end
 
 def play(song_number)
-  p song_number
+  p 'songs', song_number
   songs[ song_number.to_i ]
 
 end
