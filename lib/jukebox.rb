@@ -19,7 +19,7 @@ def help
   puts "- exit : exits this program"
 end
 
-def play 
+def play(song_number)
   puts "Please enter a song name or number:"
 
 end
