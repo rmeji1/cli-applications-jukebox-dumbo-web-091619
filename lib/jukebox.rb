@@ -27,6 +27,8 @@ def play(songs)
   
   if input.to_i != 0
     puts songs[input.to_i - 1]
+  else
+    puts input
   end
 
 end
