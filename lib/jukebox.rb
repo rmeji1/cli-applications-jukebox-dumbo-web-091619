@@ -24,6 +24,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   input = gets.chomp
+  
   error_message = "Invalid input, please try again"
   input_as_integer = input.to_i 
   
