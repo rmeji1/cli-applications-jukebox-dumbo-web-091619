@@ -20,6 +20,6 @@ def help
 end
 
 def play(song_number)
-  puts "Please enter a song name or number:"
+  song(song_number)
 
 end
