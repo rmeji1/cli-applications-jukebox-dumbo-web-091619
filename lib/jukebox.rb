@@ -20,6 +20,6 @@ def help
 end
 
 def play(song_number)
-  song(song_number)
+  songs(song_number)
 
 end
