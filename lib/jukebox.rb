@@ -37,7 +37,7 @@ def play(songs)
   end
 end
 
-def find_song(songs, title)
+def find_song_with_title(songs, title)
   songs.reduce("") do |memo, song|
     memo = title if song.include?(title)
     memo
