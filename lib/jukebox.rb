@@ -26,7 +26,7 @@ def play(songs)
   input = gets.chomp
   
   if input.to_i 
-    p input
+    return songs[input.to_i - 1]
   end
 
 end
