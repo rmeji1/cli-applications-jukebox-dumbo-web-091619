@@ -44,5 +44,6 @@ def find_song_with_title(songs, title)
   end
 end
 
-def list
+def list(songs)
+  songs.each { |songs| puts song }
 end
