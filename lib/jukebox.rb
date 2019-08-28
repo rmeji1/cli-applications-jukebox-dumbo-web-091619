@@ -30,6 +30,7 @@ def play(songs)
     puts (input.to_i <= songs.size ? songs[input.to_i - 1] : error_message)
   else
     
+    
   end
 
 end
