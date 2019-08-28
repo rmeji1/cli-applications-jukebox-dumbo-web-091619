@@ -37,7 +37,7 @@ def play(songs)
   end
 end
 
-def find_song(songs, user_input)
+def find_song(songs, input)
   songs.reduce("") do |memo, song|
     memo = input if song.include?(input)
     memo
