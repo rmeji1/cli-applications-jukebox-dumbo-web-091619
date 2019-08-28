@@ -33,7 +33,7 @@ def play(songs)
     puts (input_as_integer.to_i <= songs.size ? songs[input.to_i - 1] : error_message)
   else
    song = find_song(songs)
-    puts (song != "" ? song : error_message)
+  puts (song != "" ? song : error_message)
   end
 end
 
