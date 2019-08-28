@@ -26,7 +26,7 @@ def play(songs)
   input = gets.chomp
   
   if input.to_i != 0
-    puts songs[input.to_i - 1]
+    puts songs[input.to_i - 1] if input.to_i < songs.size
   else
     puts input
   end
