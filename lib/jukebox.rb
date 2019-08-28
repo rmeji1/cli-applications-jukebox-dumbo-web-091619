@@ -24,5 +24,9 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   input = get.chomp
+  
+  if input.to_i 
+    p input
+  end
 
 end
